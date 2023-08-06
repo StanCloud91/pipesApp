@@ -40,8 +40,9 @@ export class MenuComponent implements OnInit {
         icon: 'pi pi-cog',
         items: [
           {
-            label: 'Otro Elemento',
-            icon: 'pi pi-align-left'
+            label: 'Custom',
+            icon: 'pi pi-align-left',
+            routerLink: 'customs'
           },
           {
             label: 'Números',
